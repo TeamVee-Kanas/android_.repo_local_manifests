@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remote names -->
+	<remote name="tv" fetch="https://github.com/TeamVee/" />
+	<remote name="tvk" fetch="https://github.com/TeamVee-Kanas/" />
+	<!-- Unofficial Builds -->
+	<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+	<!-- TWRP -->
+	<project path="bootable/recovery-omni" name="android_bootable_recovery" revision="cm-11.0" remote="tv" />
+	<!-- Project kanas -->
+	<project path="device/sony/kanas" name="android_device_sony_kanas" revision="cm-11.0" remote="tvk" />
+	<project path="kernel/sony/kanas" name="android_kernel_sony_kanas" revision="cm-11.0" remote="tvk" />
+	<project path="vendor/sony/kanas" name="android_vendor_sony_kanas" revision="cm-11.0" remote="tvk" />
+</manifest>

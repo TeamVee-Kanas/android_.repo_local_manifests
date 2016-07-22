@@ -4,6 +4,18 @@ Project Kanas|GalaxyCore2
 
 ---
 
+Automatic Way:
+
+script to download manifests, sync repo  and build:
+
+    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/TeamVee-Kanas/android_.repo_local_manifests/cm-11.0/build.sh
+
+To use:
+
+    source build.sh
+
+---
+
 Manual Way:
 
 To initialize CyanogenMod 11.0 Repo:
